@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <name>libcbdetect</name>
+  <version>0.1.0</version>
+  <description>Corner Detection</description>
+
+  <maintainer email="sshreyas@seas.upenn.edu">Shreyas Skandan Shivakumar</maintainer>
+  <license>BSD</license>
+  <author email="sshreyas@seas.upenn.edu">Shreyas Skandan Shivakumar</author>
+  <buildtool_depend>catkin</buildtool_depend>
+</package>

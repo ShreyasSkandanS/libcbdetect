@@ -97,14 +97,14 @@ typedef struct Params {
   std::vector<int> radius;
 
   Params()
-      : show_processing(true)
+      : show_processing(false)
       , show_debug_image(false)
       , show_grow_processing(false)
       , norm(false)
       , polynomial_fit(true)
       , norm_half_kernel_size(31)
       , polynomial_fit_half_kernel_size(4)
-      , init_loc_thr(0.01)
+      , init_loc_thr(0.001)
       , score_thr(0.01)
       , strict_grow(true)
       , overlay(false)

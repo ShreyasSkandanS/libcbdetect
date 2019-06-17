@@ -167,7 +167,7 @@ void find_corners(const cv::Mat& img, Corner& corners, const Params& params) {
     return;
   }
   if(params.show_processing) {
-    printf("Initializing conres (%d x %d) ... %lu\n", img_norm.cols, img_norm.rows, corners.p.size());
+    printf("Initializing corners (%d x %d) ... %lu\n", img_norm.cols, img_norm.rows, corners.p.size());
   }
   if(params.show_debug_image) {
     plot_corners(img, corners.p, "init location");
